@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+textarea:hover, input:hover, textarea:active, input:active, textarea:focus, input:focus {
+    outline:0px !important;
+    box-shadow: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+a,.btn:focus{
+    outline: 0;
+    box-shadow: 0;
+}
+.custom-nav{
+    background: #2c3e50;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.side-bar-sticky{
+    height: 100vh;
+}
+.side-bar-sticky ul {
+    margin: 0;
+}
+.side-bar-sticky ul li a {
+    color: #3498db;
+    transition: all .2s;
+}
+.side-bar-sticky ul li{
+    padding: 5px 0px;
+    ;
+}
+.side-bar-sticky ul li:hover a{
+ background:#2c3e50;
+ color: white;
+}
+.content{
+    background:#dfe6e9;
+}
+.courses{
+    position: relative;
+}
+ /* plus button  */
+.addbtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.profile-img{
+    width: 139px;
+    border-radius: 139px;
+    height: 139px;
+    margin-top: 27px;
+    border: 2px groove #ddd
+}
+.side-menu .side-bar-sticky h5{
+    margin: 10px;
+    color: rgb(141, 134, 134);
+    text-transform: capitalize;
+}

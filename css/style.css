@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn:focus,a:focus,input {
+    outline: 0 !important;
+    box-shadow: none !important;
+    
+  }
+a{
+    text-decoration: none;
+    text-underline-position: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.btnlinear{
+    background: linear-gradient(90deg,#3498dbde,#95a5a6e3);
+    color: #fff;
+    font-weight: bold;
+   
+
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.custom-navbar li a:hover{
+    background: #34495e;
+    border-radius: 10px;
+    transition: .3s;
+    
+}
+.custom-navbar .nav-link{
+    color: #fff !important;
+}
+.video_banner{
+    position: relative;
+}
+.vid-container{
+    margin: 0;
+    padding: 0;
+}
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #34495e;
+    opacity: .8;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.banner-content{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+}
+.banner-heading{
+    color: #bdc3c7;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.banner-content{
+    font-size: 2em;
+    color: #95a5a6;
+    margin-bottom: 25px;
+
+}
+.banner-content .btn {
+    margin-top: 25px;
+}
+.custom-banner{
+    color: #000;
+    padding: 10px;
+
+}
+@media only screen and (max-width: 700px){
+    .hide-content{
+        display: none;
+    }
+    .banner-content{
+        top: 5%;
+        left: 30%;
+    }
+}
+@media only screen and (max-width: 1024px){
+   
+    .banner-content{
+        top: 15%;
+        left: 20%;
+    }
+    nav{
+        background: #34495e;
+    }
+}
+.card-deck a{
+    text-decoration: none;
+    color: #000;
+}
+.strip{
+    background: linear-gradient(245deg,#ed213a,#93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 5rem;
+    transform: rotate(10deg);
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.slider-content{
+    background: red;
+}
+.cmt-desc{
+    padding: 2rem;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.slider-img{
+    width: 7rem;
+    border-radius: 50%;
+    border: 5px solid #34495e;
+}
+.feedback-container{
+    background: #345474;
+    color: #fff;
+}
+.tns-outer [aria-controls], .tns-outer [data-action] {
+    cursor: pointer;
+    display: none;
+}
+.social-container{
+    margin: 0;
+    padding: 0;
+    background: ;
+}
+.social-box{
+    padding: .4rem;
+}
+.social-box:hover{
+    background: #2d3436;
+    color: #fff;
+    transition: all .3s;
+}
+.category-box ul{
+
+}
+.category-box ul li{
+ list-style: none;
+}
+.category-box ul li a{
+ color: #000;
+}
+.banner-img{
+    position: relative;
+    height: 500px ;
+    object-fit: scale-down;
+    box-shadow: 10px;
+}
